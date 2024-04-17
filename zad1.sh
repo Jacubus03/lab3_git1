@@ -61,8 +61,8 @@ git branch -f main C3'';
 #4.3
 git switch C1;
 git cherry-pick C2;
-git switch main;
-git cherry-pick C2' C3;
+git commit --amend;
+git cherry-pick C3;
 
 #4.4
 git tag v0 C1;
